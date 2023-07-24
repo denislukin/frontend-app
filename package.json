@@ -17,10 +17,11 @@
     "@types/react-dom": "18.2.4",
     "next": "^13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tsc-files": "^1.1.4"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "sass": "^1.64.1",
+    "tsc-files": "^1.1.4",
     "eslint": "^8.45.0",
     "eslint-config-next": "13.4.3",
     "eslint-config-prettier": "^8.8.0",

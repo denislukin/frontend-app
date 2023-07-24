@@ -1,3 +1,5 @@
-export default function Page() {
-  return <h1>Hello, Dashboard Page!</h1>;
+import styles from "./styles.module.sass";
+
+export default function Home() {
+  return <main className={styles.main}>das</main>;
 }
