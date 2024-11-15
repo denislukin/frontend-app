@@ -5,6 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - name: Install packages
+        run: yarn
       - name: List files in the repository
         run: yarn build
       - name: List files in the repositorsy
