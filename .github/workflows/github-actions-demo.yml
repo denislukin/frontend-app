@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: List files in the repository
       - run: yarn build
+      - name: List files in the repositorsy
+      - run: yarn lint
+      - name: List files in the repositossry
+      - run: yarn prettier
+      - name: List files in the repossssitory
+      - run: yarn lint-staged
