@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 
 // These styles apply to every route in the application
 import "./globals.css";
+import { ApolloProviders, Providers } from "@/lib/providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,11 @@ export default function RootLayout({
       <link rel="apple-touch-icon" href="/icon-512x512.png"></link>
       <meta name="theme-color" content="#000" />
 
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Providers>
+          <ApolloProviders>{children}</ApolloProviders>
+        </Providers>
+      </body>
     </html>
   );
 }
