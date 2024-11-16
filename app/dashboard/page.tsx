@@ -1,5 +1,3 @@
-import styles from "./styles.module.sass";
-
 export default function Home() {
   return (
     <div className="container mx-auto px-1">
